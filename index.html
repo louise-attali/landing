@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        My future trips
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name ="destinations" content="This is the Louise's next destinations">
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script src="code/popup.js"></script>
+    
+</head>
+<body>
+    <div class="banner-dest">
+        <div class="banner-content">
+            <h1>
+                WHERE I'D LOVE TO GO!
+            </h1>
+            <button id="modern-typeform-button"><a id="to-end" href="#typeform">Join me!</a></button>
+        </div>
+    </div>
+    <div class = "cards">
+        <div class ="destination" onclick="showModal('Brazil')">
+            <img src="images/icons/Brazil.png" class="icons" alt="Brazil">
+            <h3>Brazil</h3>
+        </div>
+            <div id="Brazil" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('Brazil')">&times;</span>  
+                    <p class="quote">“Discovering Brazil means immersing yourself in a mix of cultures, breathtaking landscapes and warm 
+                        encounters that will make every moment an unforgettable adventure. Take off on a 15-day tour of this South American 
+                        country.”</p>
+                    </p>
+                    <ul>
+                       <li>📍 Where? Rio de Janeiro, São Paulo, Recife and Olinda, Salvador de Bahia, Brasília</li>
+                       <li>📆  How long? 15 days</li>
+                       <li>💵 What's the budget? 4000 USD</li>
+                    </ul>
+                    <img src="images/destinations/1.jpg" alt="Brazil">
+                </div>
+            </div>
+        <div class ="destination" onclick="showModal('Australia')">
+            <img src="images/icons/Australia.png" class="icons" alt="Australia">
+            <h3>Australia</h3>
+        </div>
+            <div id="Australia" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('Australia')">&times;</span>
+                    <p class="quote">“Dive into the Australian adventure, where dazzling landscapes and fascinating biodiversity promise 
+                        unforgettable moments on the other side of the world.”</p>
+                    </p>
+                    <ul>
+                       <li>📍 Where? Sydney, Blue Mountains, Great Barrier Reef, Daintree Rainforest, Melbourne</li>
+                       <li>📆  How long? 8 days</li>
+                       <li>💵 What's the budget? 4500 USD</li>
+                    </ul>
+                    <img src="images/destinations/2.jpg" alt="Australia">
+                </div>
+            </div>
+        <div class ="destination" onclick="showModal('Canada')">
+            <img src="images/icons/Canada.png" class="icons" alt="Canada">
+            <h3>Canada</h3>
+        </div>
+            <div id="Canada" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('Canada')">&times;</span>
+                    <p class="quote">“Immerse yourself in the vast expanses of Canada, where nature invites you to live unforgettable 
+                        adventures, between forests, mountains and lakes, for an experience as epic as it is captivating.”</p>
+                    </p>
+                    <ul>
+                       <li>📍 Where? Toronto, Niagara Falls, Montréal, Québec, La Mauricie</li>
+                       <li>📆  How long? 8 days</li>
+                       <li>💵 What's the budget? 3000 USD</li>
+                    </ul>
+                    <img src="images/destinations/3.jpg" alt="Canada">
+                </div>
+            </div>
+        <div class ="destination" onclick="showModal('Iceland')">
+            <img src="images/icons/Iceland.png" class="icons" alt="Iceland">
+            <h3>Iceland</h3>
+        </div>
+            <div id="Iceland" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('Iceland')">&times;</span>
+                    <p class="quote">“Discover Iceland, where unspoilt nature offers a breathtaking spectacle at every turn. With its 
+                        waterfalls, soothing hot springs and vast wilderness, every moment spent on this island is an authentic and 
+                        memorable experience.”</p>
+                    </p>
+                    <ul>
+                       <li>📍 Where? Reykjavik, Snæfellsnes, Jökulsárlón, Vatnajökull</li>
+                       <li>📆  How long? 7 days</li>
+                       <li>💵 What's the budget? 4000 USD</li>
+                    </ul>
+                    <img src="images/destinations/4.jpg" alt="Iceland">
+                </div>
+            </div>
+        <div class ="destination" onclick="showModal('French-Polynesia')">
+            <img src="images/icons/French-Polynesia.png" class="icons" alt="French-Polynesia">
+            <h3>French Polynesia</h3>
+        </div>
+            <div id="French-Polynesia" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('French-Polynesia')">&times;</span>
+                    <p class="quote">“Discover French Polynesia, a veritable haven of peace where nature and calm invite you to recharge 
+                        your batteries. With its white sandy beaches, turquoise waters and richly traditional culture, every moment spent 
+                        on these islands offers you an authentic and soothing getaway.”</p>
+                    </p>
+                    <ul>
+                       <li>📍 Where? Tahiti, Moorea, Bora Bora</li>
+                       <li>📆  How long? 7 days</li>
+                       <li>💵 What's the budget? 4500 USD</li>
+                    </ul>
+                    <img src="images/destinations/5.jpg" alt="French-Polynesia">
+                </div>
+            </div>
+        <div class ="destination" onclick="showModal('Singapore')">
+            <img src="images/icons/Singapore.png" class="icons" alt="Singapore">
+            <h3>Singapore</h3>
+        </div>
+            <div id="Singapore" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('Singapore')">&times;</span>
+                    <p class="quote">“Immerse yourself in Singapore's cosmopolitan and welcoming atmosphere, where modernity meets 
+                        tradition. Explore its lively neighborhoods, sample its delicious street food and stroll along its seafront 
+                        promenade. From its verdant parks to its rich cultural heritage, Singapore offers an authentic and enriching urban 
+                        experience.”</p>
+                    </p>
+                    <ul>
+                       <li>📍 Where? Gardens by the Bay, Sentosa Island</li>
+                       <li>📆  How long? 10 days</li>
+                       <li>💵 What's the budget? 6000 USD</li>
+                    </ul>
+                    <img src="images/destinations/6.jpg" alt="Singapore">
+                </div>
+            </div>
+    </div>
+
+    <!-- <div data-tf-live="01HTDPRGG0CVN24T99NFRCR2FC" id="typeform"></div>
+    <script src="https://embed.typeform.com/next/embed.js"></script> -->
+
+    <div data-tf-live="01HTDPRGG0CVN24T99NFRCR2FC" data-tf-on-submit="submit" id="typeform"></div>
+    <script src="https://embed.typeform.com/next/embed.js"></script>
+    <script>
+        // this function needs to be available on global scope (window)
+        function submit({formId}) {
+          console.log(`Form ${formId} started`);
+          // Call your function here
+          confetti({
+                particleCount: 300, 
+                spread: 120,
+                // colors: [],
+                shapes: ['circle', 'star', 'square']});
+        }
+      </script>
+   <!-- <script>function showModal(modalId) {
+    document.getElementById(modalId).style.display = 'block';
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = 'none';
+}</script> -->
+</body>
