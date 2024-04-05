@@ -147,6 +147,7 @@ li {
     margin-top: 10px;
     font-weight: bold;
     border: none;
+    color:white;
 
 }
 
@@ -156,6 +157,5 @@ li {
 }
 
 #to-end {
-    color:white;
     text-decoration: none;
 }
